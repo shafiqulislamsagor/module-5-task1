@@ -55,6 +55,8 @@
     border-radius: 5px;
     background: #F15B22;
     padding: 20px 28px;
+    border: 0;
+    box-shadow: 2px 2px 4px #00000096;
 }
 
 /* Main Container parts */
@@ -144,4 +146,39 @@ span {
     font-size: 22px;
     font-weight: 500;
     margin-top: 18px;
+}
+
+/* image related part */
+.image-container {
+    background: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+    height: 300px;
+    margin: 130px 0;
+}
+
+.linear {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+
+    border-radius: 8px;
+    padding: 59px 64px;
+}
+
+.image-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.image-btn {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 36px;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 24px;
+    border: 0;
 }
