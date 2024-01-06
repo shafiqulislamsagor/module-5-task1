@@ -7,6 +7,14 @@
 
 /* same design related */
 
+.info-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+
 /* header style part */
 .header {
     background: url('../images/banner/banner1.png');
@@ -79,12 +87,6 @@ main {
 }
 
 
-.info-title {
-    color: #151414;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 24px;
-}
 
 .info-description {
     color: #444343;
@@ -102,4 +104,44 @@ span {
     color: #444343;
     font-size: 16px;
     line-height: 26px;
+}
+
+/* plans info related style */
+.plans {
+    margin-top: 200px;
+}
+
+#plan {
+    text-align: center;
+}
+
+.plans-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.plan-item {
+    text-align: center;
+}
+
+.plan-item>img {
+    width: 92.958px;
+    height: 92.958px;
+}
+
+.item-title {
+    margin-top: 18px;
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.item-info {
+    color: #737272;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 18px;
 }
