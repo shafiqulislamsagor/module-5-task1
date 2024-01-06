@@ -182,3 +182,69 @@ span {
     margin-top: 24px;
     border: 0;
 }
+
+/* footer related style */
+footer {
+    background: #151414;
+}
+
+.footer {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 130px;
+    gap: 300px;
+    padding-bottom: 130px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.future-description,
+.email,
+.phone {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+/* form related style */
+.subscribe-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.email-name {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 300px;
+    color: #F3F3F3;
+    font-size: 18px;
+    padding: 21px;
+    background: #151414;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+
+.form-btn {
+    border-radius: 8px;
+    background: #FFF;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 16px 28px;
+}
