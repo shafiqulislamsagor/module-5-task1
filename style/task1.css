@@ -17,7 +17,8 @@
     justify-content: right;
     align-items: center;
 }
-.header-container{
+
+.header-container {
     width: 40%;
     text-align: right;
     margin: 216px 230px 116px 0;
@@ -46,4 +47,59 @@
     border-radius: 5px;
     background: #F15B22;
     padding: 20px 28px;
+}
+
+/* Main Container parts */
+main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Year-info parts */
+.year-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-top: 250px;
+}
+
+.img-pic {
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    width: 527.929px;
+    height: 527.929px;
+    margin-top: 100px;
+}
+
+.img-pic>img {
+    position: relative;
+    top: -198px;
+    right: 23px;
+}
+
+
+.info-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.info-description {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+span {
+    color: #16D887;
+}
+
+.info-focus {
+    list-style: none;
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
 }
